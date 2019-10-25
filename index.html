@@ -5,18 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="main">
+        <!-- From heading title -->
         <div class="heading">
             <h1>Moderm Survey Form</h1>
         </div>
 
-        <div class="form-group">
+        <div class="survey-form">
           <form>
-            <label for="">Full Name</label>
-            <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-            <small id="helpId" class="text-muted">Help text</small>
+            <div class="form-group">
+                <label for="">Full Name</label><br>
+                <input type="text" name="" id="" class="form-control" placeholder="Enter your name" aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+                <label for="">Email</label><br>
+                <input type="text" name="" id="" class="form-control" placeholder="Enter your email" aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+                <label for="">Age(optional)</label><br>
+                <input type="text" name="" id="" class="form-control" placeholder="Enter your age" aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+                <label for="">Select your stack</label><br>
+               <select name="stack" id="" class="form-control">
+                   <option>Select stack</option>
+                   <option>Full Stack</option>
+                   <option>Front-End</option>
+                   <option>Back-End</option>
+                   <option>UI/UX Designer</option>
+                   <option>Data Analyst</option>
+                   <option>Others</option>
+               </select>
+            </div>
+            <div>
+                <label for="">Which programming language would you recommend for beginners</label><br>
+                <input type="radio" name="radio" id="" value="Javascript"><small>Javascript</small><br>
+                <input type="radio" name="radio" id="" value="Python"><small>Python</small><br>
+                <input type="radio" name="radio" id="" value="Java"><small>Java</small><br>
+                <input type="radio" name="radio" id="" value="Kotline"><small>Kotline</small><br>
+                <input type="radio" name="radio" id="" value="Others"><small>Others</small><br>
+                <input type="text" name="radio" id="" placeholder="Enter Others" class="form-control">
+            </div>
+            <div>
+                <label for="">Which of the framework</label><br>
+                <input type="checkbox" name="Angular" id=""><small>Angular</small><br>
+                <input type="checkbox" name="React" id=""><small>React</small><br>
+                <input type="checkbox" name="Vue" id=""><small>Vue Js</small><br>
+                <input type="checkbox" name="Jquery" id=""><small>Jquery</small><br>
+                <input type="checkbox" name="Django" id=""><small>Django</small><br>
+                <input type="checkbox" name="Flask" id=""><small>Flask</small><br>
+                <input type="checkbox" name="Express" id=""><small>Express</small><br>
+                <input type="checkbox" name="Others" id=""><small>Others</small><br>
+                <input type="text" name="radio" id="" placeholder="Enter Others" class="form-control">
+            </div>
+            <div>
+                <label for="">Any Comments Or Suggestions?</label><br>
+                <!-- <input type="text" name="message" id="text-area" placeholder="Enter your comment or suggestions here..."> -->
+                <textarea name="comments" id="text-area" placeholder="Enter your comment or suggestions here..."></textarea>
+            </div>
+           <input type="submit" value="Submit">
           </form>
         </div>
     </div>
