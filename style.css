@@ -10,6 +10,7 @@
     --main-inputs-bg-color: #ebebeb;
     --main-font: hack;
     --main-dark-color: #040240;
+    --main-btn-bg-color: #044BD9;
 }
 
 /* Main Document Div */
@@ -86,15 +87,19 @@ small {
 
 #submit {
     width: 95%;
+    margin: auto;
     padding: 10px;
-    color: var(--main-dark-color);
-    background: #c3ff4a;
+    color: var(--main-txt-color);
+    background: var(--main-btn-bg-color);
     border: none;
     border-radius: 20px;
     font-family: var(--main-font);
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+div {
+    margin: auto;
 }
 
 /* 
