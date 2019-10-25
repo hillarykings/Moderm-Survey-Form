@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: #fff;
+    --main-txt-color: #d7d7d7d7;
+    --main-padding: 15px;
+    --main-inputs-bg-color: #ebebeb;
+    --main-font: hack;
+    --main-dark-color: #040240;
+}
+
+/* Main Document Div */
+
+.main {
+    width: 50%;
+    height: 80%;
+    margin: 5% auto;
+    padding: 30px;
+    background: var(--main-dark-color);
+    color: var(--main-txt-color);
+    border-radius: 25px;
+}
+
+/* Form heading and title */
+
+.heading {
+    padding: 40px;
+    text-align: center;
+    font-family: hack;
+    font-size: 1.1em;
+    color: var(--main-txt-color);
+}
+
+/* form div */
+
+.survey-form {
+    display: flex;
+    justify-content: center;
+}
+
+.formg-group {
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px auto;
+}
+
+.form-control {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    background: var(--main-inputs-bg-color);
+    font-family: var(--main-font);
+}
+
+label {
+    font-size: 1.1em;
+    font-family: var(--main-font);
+}
+
+#radio {
+    margin: 10px;
+}
+small {
+    font-size: 1.2em;
+    font-family: var(--main-font);
+}
+#checkbox {
+      font-size: 1.2em;
+      font-family: var(--main-font);
+      margin: 10px;
+}
+
+#text-area {
+    width: 90%;
+    height: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    background: var(--main-inputs-bg-color);
+}
+
+#submit {
+    width: 95%;
+    padding: 10px;
+    color: var(--main-dark-color);
+    background: #c3ff4a;
+    border: none;
+    border-radius: 20px;
+    font-family: var(--main-font);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
