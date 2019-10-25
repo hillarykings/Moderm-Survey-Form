@@ -86,7 +86,9 @@ small {
 }
 
 #submit {
-    width: 95%;
+    display: flex;
+    justify-items: center;
+    width: 50%;
     margin: auto;
     padding: 10px;
     color: var(--main-txt-color);
