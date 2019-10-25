@@ -11,7 +11,7 @@
     <div class="main">
         <!-- From heading title -->
         <div class="heading">
-            <h1>Moderm Survey Form</h1>
+            <h1>Modern Web Developer Survey Form</h1>
         </div>
 
         <div class="survey-form">
@@ -26,7 +26,7 @@
             </div>
             <div class="form-group">
                 <label for="">Age(optional)</label><br>
-                <input type="text" name="" id="" class="form-control" placeholder="Enter your age" aria-describedby="helpId">
+                <input type="number" name="" id="" class="form-control" placeholder="Enter your age" aria-describedby="helpId">
             </div>
             <div class="form-group">
                 <label for="">Select your stack</label><br>
@@ -40,16 +40,16 @@
                    <option>Others</option>
                </select>
             </div>
-            <div>
+            <div class="radio-div">
                 <label for="">Which programming language would you recommend for beginners</label><br>
                 <input type="radio" name="radio" id="radio" value="Javascript"><small>Javascript</small><br>
                 <input type="radio" name="radio" id="radio" value="Python"><small>Python</small><br>
                 <input type="radio" name="radio" id="radio" value="Java"><small>Java</small><br>
                 <input type="radio" name="radio" id="radio" value="Kotline"><small>Kotline</small><br>
-                <input type="radio" name="radio" id="radio" value="Others"><small>Others</small><br>
-                <input type="text" name="radio" id="radio" placeholder="Enter Others" class="form-control">
+                <input type="radio" name="radio" id="radio" value="Others" class="others"><small>Others</small><br>
+                <input onclick="" type="text" name="others" id="others" placeholder="Enter Others" class="form-control">
             </div>
-            <div>
+            <div class="checkbox-div">
                 <label for="">Which of the framework</label><br>
                 <input type="checkbox" name="Angular" id="checkbox"><small>Angular</small><br>
                 <input type="checkbox" name="React" id="checkbox"><small>React</small><br>
@@ -58,17 +58,21 @@
                 <input type="checkbox" name="Django" id="checkbox"><small>Django</small><br>
                 <input type="checkbox" name="Flask" id="checkbox"><small>Flask</small><br>
                 <input type="checkbox" name="Express" id="checkbox"><small>Express</small><br>
-                <input type="checkbox" name="Others" id="checkbox"><small>Others</small><br>
-                <input type="text" name="radio" id="" placeholder="Enter Others" class="form-control">
+                <input onclick="" type="checkbox" name="Others" id="checkbox" class="others"><small>Others</small><br>
+                <input type="text" name="others" id="others" placeholder="Enter Others" class="form-control">
             </div>
             <div>
                 <label for="">Any Comments Or Suggestions?</label><br>
-                <!-- <input type="text" name="message" id="text-area" placeholder="Enter your comment or suggestions here..."> -->
                 <textarea name="comments" id="text-area" class="form-control" placeholder="Enter your comment or suggestions here..."></textarea>
             </div>
-           <input type="submit" value="Submit" id="submit" class="form-control">
+            <div>
+                <input type="submit" value="Submit" id="submit" class="form-control">
+            </div>
           </form>
         </div>
     </div>
+
+
+    <script src="app.js"></script>
 </body>
 </html>

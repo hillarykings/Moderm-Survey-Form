@@ -40,6 +40,7 @@
 .survey-form {
     display: flex;
     justify-content: center;
+    margin: auto;
 }
 
 .formg-group {
@@ -49,26 +50,32 @@
 }
 
 .form-control {
-    width: 90%;
+    display: block;
+    width: 100%;
     margin: 10px auto;
-    padding: 10px 10px;
+    padding: 10px 0 10px 10px;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     background: var(--main-inputs-bg-color);
     font-family: var(--main-font);
 }
 
 label {
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-family: var(--main-font);
 }
 
 #radio {
     margin: 10px;
 }
+
+.radio-div {
+    margin: 20px auto;
+}
 small {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: var(--main-font);
+    color
 }
 #checkbox {
       font-size: 1.2em;
@@ -76,33 +83,45 @@ small {
       margin: 10px;
 }
 
+.checkbox-div {
+    margin: 20px auto;
+}
+
+option {
+    color: var(--main-dark-color);
+    background: var(--main-inputs-bg-color);
+}
+
 #text-area {
-    width: 90%;
+    width: 94%;
     height: 150px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 20px;
     background: var(--main-inputs-bg-color);
 }
 
 #submit {
-    display: flex;
-    justify-items: center;
     width: 50%;
-    margin: auto;
-    padding: 10px;
-    color: var(--main-txt-color);
     background: var(--main-btn-bg-color);
     border: none;
     border-radius: 20px;
     font-family: var(--main-font);
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
 }
-div {
+
+/* #others {
+    display: none;
+} */
+/* div {
     margin: auto;
-}
+} */
 
 /* 
   ##Device = Desktops
@@ -133,7 +152,9 @@ div {
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    
+     .main {
+         width: 70%;
+     }
 
 }
 
@@ -144,7 +165,9 @@ div {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-    
+    .main {
+        width: 70%;
+    }
 
 }
 
