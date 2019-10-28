@@ -1,15 +1,15 @@
-// document.getElementsByClassName("others").addEventListener("click", myFunction);
 
-// function myFunction() {
-//     document.getElementsByClassName("others").innerHTML = "YOU CLICKED ME!";
-//     console.log('clicked')
-// }
+let inputField = document.querySelector('#rd-others');
+let radioBtn = document.querySelector('.radio-others')
+
+let inputField2 = document.querySelector('#chk-others');
+let checkBoxBtn = document.querySelector('.checkbox-others')
+
+radioBtn.addEventListener('click', function () {
+    inputField.style.display = 'block';
+});
 
 
-(function() {
-    //selecting my node element
-    var myNode = document.getElementsByClassName('.others');
-    myNode.addEventListener('click', function(e) {
-        console.log('clicked')
-    }, false)
-}) ();  //self executing function
+checkBoxBtn.addEventListener('click', function () {
+    inputField2.style.display = 'block';
+});

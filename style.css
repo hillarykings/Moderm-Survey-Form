@@ -116,9 +116,9 @@ option {
     cursor: pointer;
 }
 
-/* #others {
+#rd-others, #chk-others {
     display: none;
-} */
+}
 /* div {
     margin: auto;
 } */
