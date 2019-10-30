@@ -44,7 +44,7 @@
 }
 
 .formg-group {
-    margin: 10px 0;
+    margin: 10px auto;
     text-align: center;
     padding: 10px auto;
 }
@@ -93,7 +93,7 @@ option {
 }
 
 #text-area {
-    width: 94%;
+    width: 80%;
     height: 150px;
     border: none;
     border-radius: 10px;
@@ -102,13 +102,11 @@ option {
 }
 
 #submit {
-    width: 50%;
     background: var(--main-btn-bg-color);
     border: none;
     border-radius: 20px;
     font-family: var(--main-font);
     font-weight: 500;
-    display: block;
     width: 100%;
     padding: 0.75rem;
     color: inherit;
