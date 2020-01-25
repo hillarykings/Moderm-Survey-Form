@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -77,6 +78,7 @@ small {
     font-family: var(--main-font);
     color
 }
+
 #checkbox {
       font-size: 1.2em;
       font-family: var(--main-font);
@@ -107,7 +109,7 @@ option {
     border-radius: 20px;
     font-family: var(--main-font);
     font-weight: 500;
-    width: 100%;
+    width: 80%;
     padding: 0.75rem;
     color: inherit;
     border-radius: 2px;
